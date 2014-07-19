@@ -43,7 +43,7 @@
       <div class="content">
         {{ content }}      </div>
       
-      <div class="comment">
+      <div>
       	<script type="text/javascript">
                     var duoshuoQuery = {short_name:"{{ site.duoshuo.dechinkey}}"};
                     (function() {
