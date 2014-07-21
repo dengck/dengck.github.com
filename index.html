@@ -1,9 +1,62 @@
----
-title: Home
-layout: page
----
-      <ul class="listing">{% for post in paginator.posts %}{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}{% if year != y %}{% assign year = y %}
-            <li class="listing-seperator">{{ y }}</li>{% endif %}
-            <li class="listing-item"><span class="time">{{ post.date | date:"%Y-%m-%d" }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if site.truncate %}<p>{{ post.content | strip_html | truncate: site.truncate }}</p>{% endif%}</li>{% endfor %}
-          </ul>
-          <div id="post-pagination" class="paginator">{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}<a href="/">&lt;前页</a>{% else %}<a href="/page{{paginator.previous_page}}">&lt;前页</a>{% endif %}{% else %}<span class="previous disabled">&lt;前页</span>{% endif %}{% if paginator.page == 1 %}<span class="current-page">1</span>{% else %}<a href="/">1</a>{% endif %}{% for count in (2..paginator.total_pages) %}{% if count == paginator.page %}<span class="current-page">{{count}}</span>{% else %}<a href="/page{{count}}">{{count}}</a>{% endif %}{% endfor %}{% if paginator.next_page %}<a class="next" href="/page{{paginator.next_page}}">后页&gt;</a>{% else %}<span class="next disabled" >后页&gt;</span>{% endif %}(共{{ paginator.total_posts }}篇)</div>
+
+
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<meta name="baidu-site-verification" content="2p0vMBSNuS" />
+<meta name="Keywords" content="邓成凯 Clark-Deng Dechinkey CS 程序员 架构 编程 摄影">
+<meta name="Description" content="笨鸟先飞 孜孜不倦">
+<title>Clark-Deng | 邓成凯 </title>
+<style>
+h1 {
+  font-family: "Monaco", "Microsoft YaHei";
+  margin-top: 15%;
+  text-align: center;
+  }
+  
+q {
+  font-family: "Consolas", "Monaco";
+  font-size: 24pt;
+  display: block;
+  text-align: center;
+  }
+  
+span:hover {
+  color: red;  
+  cursor: pointer;
+  }
+#content { margin:0 auto;width:960px;height:auto; }
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34706029-1']);
+  _gaq.push(['_setDomainName', 'dengck.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div id="content">
+<h1>
+  <span onclick="window.open('http://clark-deng.com')">Clark-Deng</span> | 
+  <span onclick="window.open('http://blog.dengck.com')">邓成凯</span></h1>
+<q>知耻而后勇，犹未晚也</q>
+<br>
+	<center><img src="http://clark-deng.com/wp-content/uploads/2014/06/myotee1402156204369.png" /></center>
+<br>
+	<center>
+	<h2>Email:<a href="mailto:im@dengck.com?subject=ccc&body=xxx%0d%0ayyy">im@dengck.com</a></h2>	
+	</center>
+</div>
+</body>
+</html>
