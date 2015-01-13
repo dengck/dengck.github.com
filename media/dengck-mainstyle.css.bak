@@ -1045,13 +1045,6 @@ label.CF_comment {
 	font-size: 20px;
 	margin: 4px;
 }
-.fa {
-  margin: 4px;
-}
-.fa a :hover {
-  color:#000;
-	text-decoration:none;
-}
 .home-box .icon a {
 	color: #CCC;
 	*color: #666;
