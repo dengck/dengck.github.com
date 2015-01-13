@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,height=device-height,user-scalable=0" />
     <link rel="stylesheet" href="media/dengck-mainstyle.css" /> 
     
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="media/font-awesome.min.css" rel="stylesheet">
     <title>Dennis C.K Deng | Coding Every Day</title>
 </head>
 <body class="home">
