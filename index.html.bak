@@ -7,14 +7,14 @@
     <meta name="keywords" content="邓成凯, Dennis Cheng Kai Deng, 程序员" />
     <meta name="email" content="im·dengck.com" />
     <meta name="viewport" content="width=device-width,height=device-height,user-scalable=0" />
-    <link rel="stylesheet" href="http://www.dengck.com/media/dengck-mainstyle.css" /> 
-    <link href="http://media-clark.qiniudn.com/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="media/dengck-mainstyle.css" /> 
+    
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Dennis C.K Deng | Coding Every Day</title>
 </head>
 <body class="home">
 
-<div class="home-bg"><img src="http://www.dengck.com/media/dck-bg2.jpg" /></div>
+<div class="home-bg"><img src="media/dck-bg2.jpg" /></div>
 <div class="home-box">
 	
 	<h2> 邓成凯 </h2>
