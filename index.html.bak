@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="media/dengck-mainstyle.css" /> 
     
     <link href="media/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="media/font-awesome-4.2.0/css/font-awesome-animation.css" rel="stylesheet">
     <title>Dennis C.K Deng | Coding Every Day</title>
 </head>
 <body class="home">
@@ -28,7 +29,7 @@
 		<a href="/resume">Resume</a>
 	</p>
 	<p>»
-        <a href="mailto:im@dengck.com?subject=Hello"><i class="fa fa-envelope-o" title="Email"></i></a>
+        <a href="mailto:im@dengck.com?subject=Hello"><i class="fa faa-horizontal animated" title="Email"></i></a>
         <i class="icon" title="新浪微博"><a href="http://weibo.com/520deephelper" target="_blank">&#xe60e;</a></i>
         <i class="icon" title="twitter"><a href="http://twitter.com/" target="_blank">&#xe61d;</a></i>
         <i class="icon" title="豆瓣社区"><a href="http://www.douban.com/people/dechinkey/" target="_blank">&#xe610;</a></i>
