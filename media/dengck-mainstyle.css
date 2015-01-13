@@ -1045,10 +1045,10 @@ label.CF_comment {
 	font-size: 20px;
 	margin: 4px;
 }
-.fa {
+.home-box .fa {
   margin: 4px;
 }
-.fa a :hover {
+.home-box .fa a :hover {
   color:#000;
 	text-decoration:none;
 }
