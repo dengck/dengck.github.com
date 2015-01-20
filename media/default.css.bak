@@ -17,7 +17,7 @@ thead, p.table.header,
 }
 
 body {
-  margin: 1em 15% 1em 15%;
+  margin: 1em 25% 1em 25%;
 }
 
 a {
