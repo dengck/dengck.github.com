@@ -3,7 +3,7 @@
 /* reset */
 
 html, body, header, nav, section, footer,
-div, span, ol, ul, li, img, h1, h2, h3 {
+div, span, ol, img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,6 +13,11 @@ div, span, ol, ul, li, img, h1, h2, h3 {
     font-weight: normal;
     line-height: 100%;
 }
+ul, ol, li > p {
+  margin-top: 0;
+}
+ul > li     { color: #aaa; }
+ul > li > * { color: black; }
 
 /* general styles */
 
