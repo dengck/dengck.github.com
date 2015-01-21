@@ -277,6 +277,16 @@ header > div, footer > div {
         margin-bottom: 1em;
         text-align: right;
     }
+    header.title {
+    	  position: absolute;
+        top: 5em;
+        right: 10em;
+        left:  10em;
+        text-align:center;
+        font-size:12px;
+    	  color: #527bbd;
+    
+    }
     nav {
         margin-bottom: 1em;
     }
