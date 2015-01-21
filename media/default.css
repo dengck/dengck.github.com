@@ -76,6 +76,16 @@ p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+title {
+    	  position: absolute;
+        top: 5em;
+        right: 10em;
+        left:  10em;
+        text-align:center;
+        font-size:12px;
+    	  color: #527bbd;
+    
+    }
 
 a {
     background-color: transparent;

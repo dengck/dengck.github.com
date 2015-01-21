@@ -215,6 +215,15 @@ header > div, footer > div {
         bottom: 2em;
         left: 4em;
     }
+    title {
+    	  position: absolute;
+        top: 5em;
+        right: 10em;
+        left:  10em;
+        text-align:center;
+    	
+    
+    }
     nav {
         position: absolute;
         top: 2em;
