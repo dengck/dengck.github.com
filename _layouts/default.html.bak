@@ -11,9 +11,9 @@
 	</head>
 	<body class="article">
 		<div id="wrapper">
-			<div class="header">
-					<title>Resume</title>
-				</div>
+			<h1 class="title">
+					Resume
+				</h1>
 			<section>
 				
 				<div id="header">
