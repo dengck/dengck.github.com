@@ -212,12 +212,12 @@ header > div, footer > div {
         margin: 0 auto;
         box-shadow: 0 0 1.5em 0 #246;
     }
-    #header {
+    header {
         position: absolute;
         bottom: 2em;
         left: 4em;
     }
-    #header.title {
+    header.title {
     	  position: absolute;
         top: 5em;
         right: 10em;
@@ -274,11 +274,11 @@ header > div, footer > div {
         border-width: 0.5em 0;
     }
 
-    #header {
+    header {
         margin-bottom: 1em;
         text-align: right;
     }
-    #header.title {
+    header.title {
     	  position: absolute;
         top: 5em;
         right: 10em;
