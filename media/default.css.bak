@@ -1,9 +1,9 @@
-﻿/* Copyright (c) 2011-2014 Aymeric Augustin. All rights reserved. */
+﻿
 
 /* reset */
 
 html, body, header, nav, section, footer,
-div, span, ol, ul, li, img {
+div, span, ol, img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,6 +13,11 @@ div, span, ol, ul, li, img {
     font-weight: normal;
     line-height: 100%;
 }
+ul, ol, li > p {
+  margin-top: 0;
+}
+ul > li     { color: #aaa; }
+ul > li > * { color: black; }
 
 /* general styles */
 
@@ -107,7 +112,7 @@ img.in-text {
     text-align: center;     /* for images wrapped in links */
 }
 
-img.aymeric {
+img.dennis {
     border-radius: 0.5em;
 }
 

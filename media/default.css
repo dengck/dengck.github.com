@@ -1,4 +1,4 @@
-﻿/* Copyright (c) 2011-2014 Aymeric Augustin. All rights reserved. */
+﻿
 
 /* reset */
 
@@ -112,7 +112,7 @@ img.in-text {
     text-align: center;     /* for images wrapped in links */
 }
 
-img.aymeric {
+img.dennis {
     border-radius: 0.5em;
 }
 
@@ -214,6 +214,15 @@ header > div, footer > div {
         position: absolute;
         bottom: 2em;
         left: 4em;
+    }
+    title {
+    	  position: absolute;
+        top: 5em;
+        right: 10em;
+        left:  10em;
+        text-align:center;
+    	
+    
     }
     nav {
         position: absolute;
