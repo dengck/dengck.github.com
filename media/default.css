@@ -53,11 +53,10 @@ h1, h2, h3 {
 }
 h1.title {
     	  position: absolute;
-        top: 5em;
         right: 10em;
         left:  10em;
         text-align:center;
-        font-size:30px;
+        font-size:50px;
         border-bottom:0px;
     	  color: #527bbd;
     
