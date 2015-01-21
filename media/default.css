@@ -57,7 +57,8 @@ h1.title {
         right: 10em;
         left:  10em;
         text-align:center;
-        font-size:12px;
+        font-size:30px;
+        border-bottom:0px;
     	  color: #527bbd;
     
     }
